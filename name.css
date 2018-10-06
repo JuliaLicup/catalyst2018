@@ -35,7 +35,7 @@
 }
 #btn--yp:hover, #btn--yp:focus {
   outline: none;
-  filter: grayscale(0) drop-shadow(0 0 1px crimson);
+  filter: grayscale(0) drop-shadow(0 0 1px #20283E);
 }
 
 @keyframes float {
@@ -126,7 +126,7 @@ body {
   height: 3.25em;
   border-radius: 3.25em;
   transform: translate(var(--pos, 10em));
-  background: #3f324d;
+  background: #dbae58;
   --cp: inset(-2em var(--pos, 100%) -2em -2em);
   -webkit-clip-path: var(--cp);
   clip-path: var(--cp);
